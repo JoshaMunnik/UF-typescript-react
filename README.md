@@ -1,10 +1,10 @@
-#Ultra Force Typescript library
+# Ultra Force Typescript library
 
-##Description
+## Description
 
 The library exists of various support classes for use with TypeScript, React and Redux.
 
-##Installation
+## Installation
 
 Add as submodule (run from root of Git project):
 ````
@@ -14,7 +14,7 @@ git submodule update --init --recursive
 
 The target path can end with the Git project name or just 'UF-react'.
 
-##Multi-language support
+## Multi-language support
 
 The library includes a set of components to handle multi-language. The components are located in the 
 `components/translation` folder.
