@@ -95,6 +95,11 @@ export interface UFTranslationProviderProps {
    * Helper function to convert raw html to React structure.
    */
   readonly htmlParser?: (value: string) => React.ReactNode;
+
+  /**
+   * Child elements
+   */
+  readonly children?: React.ReactNode;
 }
 
 /**

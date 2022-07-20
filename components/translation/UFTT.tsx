@@ -15,17 +15,22 @@ export interface UFTTProps {
   /**
    * The id to find text for. When not set, use the content as id.
    */
-  ttid?: string;
+  readonly ttid?: string;
 
   /**
    * When true parse the translated text through a html parser to create a correct React structure.
    */
-  html?: boolean;
+  readonly html?: boolean;
 
   /**
    * When set, replace the keys with their values in the translated or default text.
    */
-  map?: IUFDynamicObject;
+  readonly map?: IUFDynamicObject;
+
+  /**
+   * Child elements
+   */
+  readonly children?: React.ReactNode;
 }
 
 /**
