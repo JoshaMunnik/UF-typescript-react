@@ -27,7 +27,6 @@ export interface UFTTProps {
    */
   readonly map?: IUFDynamicObject;
 
-
   /**
    * Child elements
    */
