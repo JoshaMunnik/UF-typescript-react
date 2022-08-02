@@ -1,18 +1,20 @@
-# Ultra Force Typescript library
+# Ultra Force Typescript library for React and Redux
 
 ## Description
 
-The library exists of various support classes for use with TypeScript, React and Redux.
+The library exists of various support classes for use with TypeScript in combination with React and Redux.
+
+It exists of code snippets found on the internet and conversions from other libraries.
 
 ## Installation
 
 Add as submodule (run from root of Git project):
 ````
-git submodule add https://github.com/JoshaMunnik/UF-typescript-react {targetpath}
+git submodule add https://github.com/JoshaMunnik/UF-typescript-react src/UF-react
 git submodule update --init --recursive  
 ````
 
-The target path can end with the Git project name or just 'UF-react'.
+This assumes all source files in the `src` folder.
 
 ## Multi-language support
 
