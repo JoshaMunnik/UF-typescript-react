@@ -378,7 +378,7 @@ async function processSourceFile(aFileWithPath) {
 function buildExpression() {
   const tags = m_configuration.tags.join('|');
   // there is . across newlines; so use [\s\S] (see https://stackoverflow.com/a/13519983/968451)
-  const reg = `<(${tags})(((.*?)(ttid="(?<ttid>.*)")(.*?))|(.*?))>(?<content>[\\s\\S]+?)<\\/\\1.*?>`;
+  const reg = `<(${tags})((([\\s\\S]*?)(ttid="(?<ttid>.*)")([\\s\\S]*?))|([\\s\\S]*?))>(?<content>[\\s\\S]+?)<\\/\\1.*?>`;
   m_expression = new RegExp(reg, 'g');
 }
 
