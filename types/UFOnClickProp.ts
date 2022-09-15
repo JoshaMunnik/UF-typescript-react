@@ -25,9 +25,9 @@
 // region exports
 
 /**
- * A simple interface that defines a required {@link onClick}.
+ * A simple interface that defines a required {@link onClick} property.
  */
-export interface UFOnClick {
+export interface UFOnClickProp {
   /**
    * A callback to be called when the user clicks on an element.
    */

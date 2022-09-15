@@ -34,7 +34,7 @@ import * as React from 'react';
  * A simple interface that defines the {@link children} property.
  * (which is no longer defined automatically from React v18+).
  */
-export interface UFPropsWithChildren {
+export interface UFChildrenProp {
   /**
    * The children of the component.
    */
